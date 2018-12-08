@@ -1,0 +1,4 @@
+---- CalculateRMSE Matches (3 in 3 files) ----
+Main.cpp:    	  VectorXd RMSE = tools.CalculateRMSE(estimations, ground_truth);
+Tools.cpp:VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
+Tools.h:  VectorXd CalculateRMSE(const vector<VectorXd> &estimations, const vector<VectorXd> &ground_truth);
